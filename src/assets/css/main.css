@@ -384,9 +384,6 @@ form > *:last-child {
   border-top: 1px solid var(--grey-500);
   transition: var(--transition);
 }
-.nav-link:hover{
-  color: var(--primary-400);
-}
 .active-link {
   color: var(--primary-500);
 }
@@ -465,11 +462,11 @@ form > *:last-child {
   min-height: calc(100vh - (6rem + 4rem));
   text-align: center;
   padding-top: 3rem;
+  color: crimson;
 }
 .error-page h1 {
   font-size: 9rem;
 }
-
 /*#########*/
 /* Contact */
 /*#########*/
